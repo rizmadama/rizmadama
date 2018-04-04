@@ -1,0 +1,61 @@
+#simple{
+    margin: 0;
+    padding: 0;
+    width: 125px;
+}
+
+#simple li {
+    background: linear-gradient(-45deg, #0044a1, #005ddc);
+    border-bottom: 1px solid #FFF;
+    list-style: none;
+    padding: 0.5em;
+    text-align: center;
+    width: 100px;
+}
+#simple li:hover {
+    background: linear-gradient(-45deg, #006cff, #5ca1ff);
+}
+
+#simple li a {
+    color: white;
+    display: block;
+    text-decoration: none;
+}
+#simple li.active {
+    background: #FFF;
+}
+
+#simple li.active a {
+    color: #0044a1;
+    font-weight: bold;
+}
+.page {
+  position: relative;
+  width: 100px;
+  height: 100px;
+}
+.container{
+    width:1000px;
+    height:1000px;
+    padding:20px;
+    background: black ;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -120px;
+    margin-left: -220px;
+}
+.container{
+    border:20px solid rgba(0,0,0,.5);
+    width: 400px;
+    height: 200px;
+    background-image: url("asaba2.png");
+    position:fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -140px;
+    margin-left: -240px;
+    text-align: center;
+    padding:40px;
+    display: table;
+}
